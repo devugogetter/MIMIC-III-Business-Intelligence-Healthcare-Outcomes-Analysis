@@ -9,11 +9,11 @@ Data extraction → Cleaning → Cohort Building → Feature Engineering → Out
 This study analyzes **10,000 ICU patients** from the MIMIC-III database (de-identified EHR data from Beth Israel Deaconess Medical Center).
 The end-to-end workflow includes:
 
-✔ **Notebook 1**: Data ingestion & cohort building
-✔ **Notebook 2**: Feature engineering & clinical variable extraction
-✔ **Notebook 3**: Outcome modeling, mortality trends, lab trajectory analysis
-✔ **Notebook 4**: Power BI star-schema + Dashboard design
-✔ **Power BI Dashboard**: Interactive insights for clinicians & researchers
+1. **Notebook 1**: Data ingestion & cohort building
+2. **Notebook 2**: Feature engineering & clinical variable extraction
+3. **Notebook 3**: Outcome modeling, mortality trends, lab trajectory analysis
+4. **Notebook 4**: Power BI star-schema + Dashboard design
+5. **Power BI Dashboard**: Interactive insights for clinicians & researchers
 
 The project showcases:
 
@@ -37,34 +37,34 @@ Tech Stack
 
 ## Key Features
 **1. Demographic & Admission Analytics**
-Age group distribution
-Gender stratification
-Insurance patterns
-ICU admission types & LOS
+- Age group distribution
+- Gender stratification
+- Insurance patterns
+- ICU admission types & LOS
 
 **2. Lab-Based Clinical Risk Indicators**
-Extracted labs include:
-Creatinine
-Lactate
-Hemoglobin
-Platelets
-BUN
+- Extracted labs include:
+- Creatinine
+- Lactate
+- Hemoglobin
+- Platelets
+- BUN
 
 **3. ICD-9–Based Disease Burden Analysis**
-Diagnosis mapping
-Disease frequency
-Comorbidity patterns
+- Diagnosis mapping
+- Disease frequency
+- Comorbidity patterns
 
 **4. Mortality & Outcome Prediction Signals**
-30-day mortality
-ICU vs hospital mortality
-LOS patterns by diagnosis
-High-risk biomarker patterns (elevated lactate, AKI risk, anemia)
+- 30-day mortality
+- ICU vs hospital mortality
+- LOS patterns by diagnosis
+- High-risk biomarker patterns (elevated lactate, AKI risk, anemia)
 
 **5. Interactive Power BI Dashboard**
-Diagnosis-level filtering (bridge table solution)
-Mortality KPIs
-Admission Timelines
+- Diagnosis-level filtering (bridge table solution)
+- Mortality KPIs
+- Admission Timelines
 
 ## Dashboard Preview
 ![Healthcare Data Analysis Dashboard](https://github.com/user-attachments/assets/608b0d4f-89da-4daf-ab2f-a5596e6222ac)
